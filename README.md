@@ -1,4 +1,4 @@
-yandex
+Task for Yandex SHRI
 ======
 
-Yandex
+Школа разработки интерфейсов
