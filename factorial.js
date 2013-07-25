@@ -22,7 +22,7 @@ function showFactorials() {
 		return total;
 	}
 	for (var j = 1; j <= 1000000; j++) {
-		//if (j == checkTask(j)) document.write(j+"<br />"); /* либо в документ */
+		if (j == checkTask(j)) document.write(j+"<br />"); /* либо в документ */
 		if (j == checkTask(j)) console.log(j); /* либо в консоль */
 	}
 }
