@@ -6,7 +6,7 @@
 /* *** */
 
 function showFactorials() {
-  function getFactorial(n) {
+	function getFactorial(n) {
 		var result = 1;
 		for (var i = 1; i <= n; i++) {
 			result *= i;
@@ -15,11 +15,9 @@ function showFactorials() {
 	}
 	function checkTask(n) {
 		var count = n.toString();
-		var length = count.length;
-		var numbers = count.split("");
 		var total = 0;
-		for (var k = 0; k < length; k++) {
-			total += getFactorial(parseInt(numbers[k]));
+		for (var k = 0; k < count.length; k++) {
+			total += getFactorial(parseInt(count[k]));
 		}
 		return total;
 	}
